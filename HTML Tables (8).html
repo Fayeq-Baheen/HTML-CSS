@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML Layout</title>
+</head>
+
+<body>
+
+  <table border="5" cellpadding="10" cellspacing="0"
+         style="width: 900px; height: 400px; margin: 30px auto;">
+    <tr>
+
+      <td style="width: 50%;">
+        <table border="5" cellpadding="10" cellspacing="0"
+               style="width: 100%; height: 100%;">
+          <tr>
+            <td style="font-size: 38px;">
+              cell 1 in row 1
+            </td>
+          </tr>
+        </table>
+      </td>
+
+      <td style="width: 50%; vertical-align: top;">
+        <table border="5" cellpadding="10" cellspacing="0"
+               style="width: 100%; height: 100%;">
+          <tr>
+            <td style="font-size: 38px; ">
+              cell 2 in row 2
+
+              <table border="3px" cellpadding="10" cellspacing="0"
+                     style="margin-top: 75px;">
+                <tr style="border=2px;">
+                  <td style="font-size: 32px; border=2px;">
+                    table 2
+                  </td>
+                </tr>
+              </table>
+
+            </td>
+          </tr>
+        </table>
+      </td>
+
+    </tr>
+  </table>
+
+</body>
+</html>

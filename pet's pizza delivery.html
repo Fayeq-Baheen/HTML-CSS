@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pete's Pizza Delivery</title>
+</head>
+<body>
+
+    <h1>
+        <h1>Pete's Pizza Delivery</h1>
+        <h2>Online Order Form</h2>
+    </h1>
+
+    <form action="#" method="post">
+
+        <table>
+            <tr>
+                <td><label>*Name:</label></td>
+                <td><input type="text" value="Chris Wells" required></td>
+
+                <td>&nbsp;&nbsp;&nbsp;</td>
+
+                <td><label>*Tel:</label></td>
+                <td><input type="tel" value="not a phone number" required></td>
+            </tr>
+
+            <tr>
+                <td><label>*Address:</label></td>
+                <td><input type="text" value="Narzissenweg 4" required></td>
+
+                <td></td>
+
+                <td><label>*Email:</label></td>
+                <td><input type="email" value="123@email.pong" required></td>
+            </tr>
+
+            <tr>
+                <td><label>*Town/City:</label></td>
+                <td><input type="text" value="Hamburg" required></td>
+            </tr>
+
+            <tr>
+                <td><label>*Postcode:</label></td>
+                <td><input type="text" required></td>
+            </tr>
+        </table>
+
+        <p>* Required fields</p>
+
+        <br>
+
+        <table cellpadding="15">
+            <tr>
+                <th>Topping</th>
+                <th>Size</th>
+                <th>Extras</th>
+            </tr>
+
+            <tr>
+                <td valign="top">
+                    <input type="radio" name="topping" checked> Margherita <br>
+                    <input type="radio" name="topping"> Four Seasons <br>
+                    <input type="radio" name="topping"> Meat Feast
+                </td>
+
+                <td valign="top">
+                    <input type="radio" name="size"> Small <br>
+                    <input type="radio" name="size" checked> Medium <br>
+                    <input type="radio" name="size"> Large
+                </td>
+
+                <td valign="top">
+                    <input type="checkbox" checked> Mushrooms <br>
+                    <input type="checkbox" checked> Green peppers <br>
+                    <input type="checkbox" checked> Anchovies <br>
+                    <input type="checkbox" checked> Extra cheese
+                </td>
+            </tr>
+        </table>
+
+        <br><br>
+
+        <table>
+            <tr>
+                <td><label>Preferred delivery time:</label></td>
+                <td>
+                    <input type="time" value="18:30">
+                </td>
+            </tr>
+
+            <tr>
+                <td valign="top">
+                    <label>Delivery instructions:</label>
+                </td>
+                <td>
+                    <textarea rows="3" cols="30">Hurry up, I'm hungry!</textarea>
+                </td>
+            </tr>
+        </table>
+
+        <br>
+
+            <input type="submit" value="Submit order">
+
+    </form>
+
+</body>
+</html>
